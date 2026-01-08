@@ -17,10 +17,10 @@ class Graph{
 
     private static void mutualCount(Map<String,List<String>> hm){
 
-        System.out.println("Enter the username to get suggestions for that particular account :");
+        System.out.println("Enter the username to get suggestions for that particular account : ");
         String user=sc.next();
         if(!hm.containsKey(user)){
-            System.out.println("User doesn't exist");
+            System.out.println("User doesn't exist!!");
             return;
         }
         Map<String,Integer> count=new HashMap<>();
